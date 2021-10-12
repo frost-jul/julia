@@ -123,6 +123,7 @@ int main()
 	}
 	cout << endl;
 	cout << "Изменения для GitHub" << endl;
+	cout << "1 2 3" << endl;
 
 	cout << "Рандомное число равно " << number;
 	return 0;
