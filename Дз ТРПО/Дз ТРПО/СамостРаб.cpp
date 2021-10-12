@@ -8,57 +8,57 @@ int main()
 	int number = rand() % (999 - 100 + 1) + 100;
 	int a = number % 10, b = (number / 10) % 10, c = (number / 100) % 10;
 	int k = 0;
-	cout << "×èñëî â îáğàòíîì ïîğÿäêå " << a << b << c << endl;
+	cout << "Ã—ÄÅ„Ã«Ã® Ã¢ Ã®Ã¡Ä‘Å•ÅˆÃ­Ã®Ä› ÄÃ®Ä‘Ë™Ã¤Ä™Äº " << a << b << c << endl;
 	double geometric;
 	geometric = pow(a * b * c, 1. / 3.);
-	cout << "Ñğåäíåå ãåîìåòğè÷åñêîå öèôğ ÷èñëà ğàâíî " << geometric << endl;
+	cout << "ÅƒÄ‘ÄºÃ¤Ã­ÄºÄº ÄƒÄºÃ®Ä›ÄºÅˆÄ‘ÄÃ·ÄºÅ„Ä™Ã®Äº Ã¶ÄÃ´Ä‘ Ã·ÄÅ„Ã«Å• Ä‘Å•Ã¢Ã­Ã® " << geometric << endl;
 	if (a % 2 == 0) k++;
 	if (b % 2 == 0) k++;
 	if (c % 2 == 0) k++;
-	cout << "Êîëè÷åñâî ÷åòíûõ öèôğ ğàâíî " << k << endl;
+	cout << "Ä˜Ã®Ã«ÄÃ·ÄºÅ„Ã¢Ã® Ã·ÄºÅˆÃ­Å±Å‘ Ã¶ÄÃ´Ä‘ Ä‘Å•Ã¢Ã­Ã® " << k << endl;
 	switch (c)
 	{
-	case 1: cout << "Ñòî ";
+	case 1: cout << "ÅƒÅˆÃ® ";
 		break;
-	case 2: cout << "Äâåñòè ";
+	case 2: cout << "Ã„Ã¢ÄºÅ„ÅˆÄ ";
 		break;
-	case 3: cout << "Òğèñòà ";
+	case 3: cout << "Å‡Ä‘ÄÅ„ÅˆÅ• ";
 		break;
-	case 4: cout << "×åòûğåñòà ";
+	case 4: cout << "Ã—ÄºÅˆÅ±Ä‘ÄºÅ„ÅˆÅ• ";
 		break;
-	case 5: cout << "Ïÿòüñîò ";
+	case 5: cout << "ÄË™ÅˆÃ¼Å„Ã®Åˆ ";
 		break;
-	case 6: cout << "Øåñòüñîò ";
+	case 6: cout << "Å˜ÄºÅ„ÅˆÃ¼Å„Ã®Åˆ ";
 		break;
-	case 7: cout << "Ñåìüñîò ";
+	case 7: cout << "ÅƒÄºÄ›Ã¼Å„Ã®Åˆ ";
 		break;
-	case 8: cout << "Âîñåìüñîò ";
+	case 8: cout << "Ã‚Ã®Å„ÄºÄ›Ã¼Å„Ã®Åˆ ";
 		break;
-	case 9: cout << "Äåâÿòüñîò ";
+	case 9: cout << "Ã„ÄºÃ¢Ë™ÅˆÃ¼Å„Ã®Åˆ ";
 		break;
 
 	}
 	switch (number - (number / 100) * 100)
 	{
-	case 10: cout << "äåñÿòü " << endl;
+	case 10: cout << "Ã¤ÄºÅ„Ë™ÅˆÃ¼ " << endl;
 		break;
-	case 11: cout << "îäèííàäöàòü " << endl;
+	case 11: cout << "Ã®Ã¤ÄÃ­Ã­Å•Ã¤Ã¶Å•ÅˆÃ¼ " << endl;
 		break;
-	case 12: cout << "äâåíàäöàòü " << endl;
+	case 12: cout << "Ã¤Ã¢ÄºÃ­Å•Ã¤Ã¶Å•ÅˆÃ¼ " << endl;
 		break;
-	case 13: cout << "òğèíàäöàòü " << endl;
+	case 13: cout << "ÅˆÄ‘ÄÃ­Å•Ã¤Ã¶Å•ÅˆÃ¼ " << endl;
 		break;
-	case 14: cout << "÷åòûğíàäöàòü " << endl;
+	case 14: cout << "Ã·ÄºÅˆÅ±Ä‘Ã­Å•Ã¤Ã¶Å•ÅˆÃ¼ " << endl;
 		break;
-	case 15: cout << "ïÿòíàäöàòü " << endl;
+	case 15: cout << "ÄË™ÅˆÃ­Å•Ã¤Ã¶Å•ÅˆÃ¼ " << endl;
 		break;
-	case 16: cout << "øåñòíàäöàòü " << endl;
+	case 16: cout << "Å™ÄºÅ„ÅˆÃ­Å•Ã¤Ã¶Å•ÅˆÃ¼ " << endl;
 		break;
-	case 17: cout << "ñåìíàäöàòü " << endl;
+	case 17: cout << "Å„ÄºÄ›Ã­Å•Ã¤Ã¶Å•ÅˆÃ¼ " << endl;
 		break;
-	case 18: cout << "âîñåìíàäöàòü " << endl;
+	case 18: cout << "Ã¢Ã®Å„ÄºÄ›Ã­Å•Ã¤Ã¶Å•ÅˆÃ¼ " << endl;
 		break;
-	case 19: cout << "äåâÿòíàäöàòü " << endl;
+	case 19: cout << "Ã¤ÄºÃ¢Ë™ÅˆÃ­Å•Ã¤Ã¶Å•ÅˆÃ¼ " << endl;
 		break;
 
 	}
@@ -66,43 +66,43 @@ int main()
 	{
 		switch (b)
 		{
-		case 2: cout << "äâàäöàòü ";
+		case 2: cout << "Ã¤Ã¢Å•Ã¤Ã¶Å•ÅˆÃ¼ ";
 			break;
-		case 3: cout << "òğèäöàòü ";
+		case 3: cout << "ÅˆÄ‘ÄÃ¤Ã¶Å•ÅˆÃ¼ ";
 			break;
-		case 4: cout << "ñîğîê ";
+		case 4: cout << "Å„Ã®Ä‘Ã®Ä™ ";
 			break;
-		case 5: cout << "ïÿòüäåñÿò ";
+		case 5: cout << "ÄË™ÅˆÃ¼Ã¤ÄºÅ„Ë™Åˆ ";
 			break;
-		case 6: cout << "øåñòüäåñÿò ";
+		case 6: cout << "Å™ÄºÅ„ÅˆÃ¼Ã¤ÄºÅ„Ë™Åˆ ";
 			break;
-		case 7: cout << "ñåìäåñÿò ";
+		case 7: cout << "Å„ÄºÄ›Ã¤ÄºÅ„Ë™Åˆ ";
 			break;
-		case 8: cout << "âîñåìäåñÿò ";
+		case 8: cout << "Ã¢Ã®Å„ÄºÄ›Ã¤ÄºÅ„Ë™Åˆ ";
 			break;
-		case 9: cout << "äåâÿíîñòà ";
+		case 9: cout << "Ã¤ÄºÃ¢Ë™Ã­Ã®Å„ÅˆÅ• ";
 			break;
 
 		}
 		switch (a)
 		{
-		case 1: cout << "îäèí " << endl;
+		case 1: cout << "Ã®Ã¤ÄÃ­ " << endl;
 			break;
-		case 2: cout << "äâà " << endl;
+		case 2: cout << "Ã¤Ã¢Å• " << endl;
 			break;
-		case 3: cout << "òğè " << endl;
+		case 3: cout << "ÅˆÄ‘Ä " << endl;
 			break;
-		case 4: cout << "÷åòûğå " << endl;
+		case 4: cout << "Ã·ÄºÅˆÅ±Ä‘Äº " << endl;
 			break;
-		case 5: cout << "ïÿòü " << endl;
+		case 5: cout << "ÄË™ÅˆÃ¼ " << endl;
 			break;
-		case 6: cout << "øåñòü " << endl;
+		case 6: cout << "Å™ÄºÅ„ÅˆÃ¼ " << endl;
 			break;
-		case 7: cout << "ñåìü " << endl;
+		case 7: cout << "Å„ÄºÄ›Ã¼ " << endl;
 			break;
-		case 8: cout << "âîñåìü " << endl;
+		case 8: cout << "Ã¢Ã®Å„ÄºÄ›Ã¼ " << endl;
 			break;
-		case 9: cout << "äåâÿòü " << endl;
+		case 9: cout << "Ã¤ÄºÃ¢Ë™ÅˆÃ¼ " << endl;
 			break;
 
 		}
@@ -122,9 +122,9 @@ int main()
 			cout << j << " ";
 	}
 	cout << endl;
-	cout << "Èçìåíåíèÿ äëÿ GitHub" << endl;
+	cout << "ÄŒÃ§Ä›ÄºÃ­ÄºÃ­ÄË™ Ã¤Ã«Ë™ GitHub" << endl;
 	cout << "1 2 3" << endl;
-
-	cout << "Ğàíäîìíîå ÷èñëî ğàâíî " << number;
+        cout << "changes for GitHub" << endl;
+	cout << "ÄÅ•Ã­Ã¤Ã®Ä›Ã­Ã®Äº Ã·ÄÅ„Ã«Ã® Ä‘Å•Ã¢Ã­Ã® " << number;
 	return 0;
 }
