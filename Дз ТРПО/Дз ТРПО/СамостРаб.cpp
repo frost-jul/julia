@@ -122,6 +122,7 @@ int main()
 			cout << j << " ";
 	}
 	cout << endl;
+	cout << "Изменения для GitHub" << endl;
 
 	cout << "Рандомное число равно " << number;
 	return 0;
