@@ -1,0 +1,3 @@
+﻿  СамостРаб.cpp
+C:\Users\PC\Desktop\ТРПО\дз гитхаб\julia\Дз ТРПО\Дз ТРПО\СамостРаб.cpp(6,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Дз ТРПО.vcxproj -> C:\Users\PC\Desktop\ТРПО\дз гитхаб\julia\Дз ТРПО\Debug\Дз ТРПО.exe
